@@ -1,8 +1,8 @@
 require 'pry'
 
-def second_supply_for_fourth_of_july(holiday_hash)
-  # given that holiday_hash looks like this:
-  # {
+def all_supplies_in_holiday(holiday_hash)
+  # iterate through holiday_hash and print items such that your readout resembles:
+  #
   #   :winter => {
   #     :christmas => ["Lights", "Wreath"],
   #     :new_years => ["Party Hats"]
@@ -61,10 +61,3 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
-
-
-
-
-
-
-
